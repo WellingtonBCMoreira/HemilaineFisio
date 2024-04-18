@@ -1,6 +1,6 @@
 <?php
     /**Envia e-mail */
-    /*
+    
     $nome = addslashes($_POST['nome']);
     $email = addslashes($_POST['email']);
     $celular = addslashes($_POST['celular']);
@@ -18,10 +18,10 @@
         echo("E-mail enviado com sucesso!");
     }else{
         echo("Erro ao enviar e-mail");
-    }
-    */
+    }    
 
     /**Envia Whats */
+    /*
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Recupere os dados do formulário
         $nome = $_POST["nome"];
@@ -40,4 +40,5 @@
         header("Location: $api_url");
         exit;
     }
+    */
 ?>
