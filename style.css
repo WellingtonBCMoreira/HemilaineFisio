@@ -168,6 +168,7 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site p {
     color: #ffff;
     margin: 40px 0;
+    text-align: justify;
 }
 
 .topo-do-site .img-topo-site img {
